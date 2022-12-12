@@ -1,0 +1,78 @@
+@media only screen and (min-width: 768px) {
+    .videos{
+        width: 80%;
+    }
+    .video__element{
+        height: 360px;
+    }
+}
+.video__element{
+    
+    width: 100%;
+    border-radius: 10px;
+}
+
+.consultation {
+    background-color: #9da1aa;
+}
+
+.consultation__main{
+    margin: 0;
+}
+
+.clients{
+    width: 100%;
+    display: block;  
+}
+
+.image-slider{
+    position: relative;
+    width: 70%;
+    height: 400px;
+    left: 15%;
+}
+
+.image-slider__image{
+    height: 100%;
+    text-align: center;
+}
+.image-slider__image img{
+    max-width: 100%;
+    min-width: 150px;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.image-slider .swiper-pagination{
+  bottom: -30px;
+}
+.image-slider .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: rgb(73, 73, 73);
+}
+@media only screen and (min-width: 320px) {
+    .swiper-button-prev, .swiper-button-next{
+        display:none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .swiper-button-prev, .swiper-button-next{
+        color: rgb(73, 73, 73);
+        font-weight: bold;
+        display: block;
+    }
+}
+
+.clients_block h2{
+    font-size: 3em;
+    text-align: center;
+    color:white;
+    border-radius: 50px;
+    padding: 20px;
+    margin:0 10px 0 10px ;
+    background-color: #83919a;
+}
